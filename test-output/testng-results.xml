@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T19:58:19 IST" name="Default suite" finished-at="2023-02-08T20:07:30 IST" duration-ms="551207">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T19:58:19 IST" name="Default test" finished-at="2023-02-08T20:07:30 IST" duration-ms="551207">
+      <class name="com.tutorialsninja.qa.testcases.LoginFunctionalityTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T19:58:19 IST" name="openApplication" finished-at="2023-02-08T19:59:59 IST" duration-ms="100001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyLoginWithValidCreadentials()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T19:59:59 IST" name="VerifyLoginWithValidCreadentials" finished-at="2023-02-08T20:00:27 IST" duration-ms="27844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCreadentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:00:27 IST" name="tearDown" finished-at="2023-02-08T20:00:30 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:00:30 IST" name="openApplication" finished-at="2023-02-08T20:01:45 IST" duration-ms="75405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLoginWithInValidCreadentials()[pri:1, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:01:45 IST" name="verifyLoginWithInValidCreadentials" finished-at="2023-02-08T20:01:53 IST" duration-ms="7325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCreadentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:01:53 IST" name="tearDown" finished-at="2023-02-08T20:01:55 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:01:55 IST" name="openApplication" finished-at="2023-02-08T20:03:16 IST" duration-ms="81676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyLoggingWithInValidEmailAndValidPassword()[pri:2, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:03:16 IST" name="VerifyLoggingWithInValidEmailAndValidPassword" finished-at="2023-02-08T20:03:19 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoggingWithInValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:03:20 IST" name="tearDown" finished-at="2023-02-08T20:03:22 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:03:22 IST" name="openApplication" finished-at="2023-02-08T20:04:32 IST" duration-ms="70333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyLoggingWithValidEmailAndInvalidPassword()[pri:3, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:04:32 IST" name="VerifyLoggingWithValidEmailAndInvalidPassword" finished-at="2023-02-08T20:04:34 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoggingWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:04:34 IST" name="tearDown" finished-at="2023-02-08T20:04:40 IST" duration-ms="6064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:04:40 IST" name="openApplication" finished-at="2023-02-08T20:05:55 IST" duration-ms="74780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyLoggingWithoutCreadentials()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:05:55 IST" name="VerifyLoggingWithoutCreadentials" finished-at="2023-02-08T20:05:58 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoggingWithoutCreadentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:05:58 IST" name="tearDown" finished-at="2023-02-08T20:06:00 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:06:00 IST" name="openApplication" finished-at="2023-02-08T20:07:17 IST" duration-ms="77093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyForgetpasswordlinkisWorking()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:07:17 IST" name="VerifyForgetpasswordlinkisWorking" finished-at="2023-02-08T20:07:21 IST" duration-ms="3872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgetpasswordlinkisWorking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginFunctionalityTest@1d2adfbe]" started-at="2023-02-08T20:07:21 IST" name="tearDown" finished-at="2023-02-08T20:07:30 IST" duration-ms="9309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginFunctionalityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

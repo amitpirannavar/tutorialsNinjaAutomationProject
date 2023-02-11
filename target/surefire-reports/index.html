@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest" class="method navigator-link" hash-for-method="VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields">VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="VerifyForgetpasswordlinkisWorking">VerifyForgetpasswordlinkisWorking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="VerifyLoggingWithInValidEmailAndValidPassword">VerifyLoggingWithInValidEmailAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="VerifyLoggingWithValidEmailAndInvalidPassword">VerifyLoggingWithValidEmailAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="VerifyLoggingWithoutCreadentials">VerifyLoggingWithoutCreadentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCreadentials">VerifyLoginWithValidCreadentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest" class="method navigator-link" hash-for-method="VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield">VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest" class="method navigator-link" hash-for-method="VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield">VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest" class="method navigator-link" hash-for-method="VerifyRegisteringWithOnlyMandatoryFields">VerifyRegisteringWithOnlyMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.SearchFunctionalityTest" class="method navigator-link" hash-for-method="VerifySearchingValidProduct">VerifySearchingValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.SearchFunctionalityTest" class="method navigator-link" hash-for-method="VerifySearchingWithInvalidProduct">VerifySearchingWithInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.SearchFunctionalityTest" class="method navigator-link" hash-for-method="VerifyWithOutProvidingProductInSearchFiled">VerifyWithOutProvidingProductInSearchFiled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tutorialsninja.qa.testcases.LoginFunctionalityTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidCreadentials">verifyLoginWithInValidCreadentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tutorialsninja.qa.testcases.RegisterfunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields">
+                  </a> <!-- VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields -->
+                  <span class="method-name">VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields</span>
+                  <div class="stack-trace">java.lang.AssertionError: Account has not created expected [Password confirmation does not match Password!] but found [Password confirmation does not match password!]
+	at com.tutorialsninja.qa.testcases.RegisterfunctionalityTest.VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields(RegisterfunctionalityTest.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsninja.qa.testcases.LoginFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyForgetpasswordlinkisWorking">
+                  </a> <!-- VerifyForgetpasswordlinkisWorking -->
+                  <span class="method-name">VerifyForgetpasswordlinkisWorking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoggingWithInValidEmailAndValidPassword">
+                  </a> <!-- VerifyLoggingWithInValidEmailAndValidPassword -->
+                  <span class="method-name">VerifyLoggingWithInValidEmailAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoggingWithValidEmailAndInvalidPassword">
+                  </a> <!-- VerifyLoggingWithValidEmailAndInvalidPassword -->
+                  <span class="method-name">VerifyLoggingWithValidEmailAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoggingWithoutCreadentials">
+                  </a> <!-- VerifyLoggingWithoutCreadentials -->
+                  <span class="method-name">VerifyLoggingWithoutCreadentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCreadentials">
+                  </a> <!-- VerifyLoginWithValidCreadentials -->
+                  <span class="method-name">VerifyLoginWithValidCreadentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInValidCreadentials">
+                  </a> <!-- verifyLoginWithInValidCreadentials -->
+                  <span class="method-name">verifyLoginWithInValidCreadentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsninja.qa.testcases.RegisterfunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield">
+                  </a> <!-- VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield -->
+                  <span class="method-name">VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield">
+                  </a> <!-- VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield -->
+                  <span class="method-name">VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisteringWithOnlyMandatoryFields">
+                  </a> <!-- VerifyRegisteringWithOnlyMandatoryFields -->
+                  <span class="method-name">VerifyRegisteringWithOnlyMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsninja.qa.testcases.SearchFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchingValidProduct">
+                  </a> <!-- VerifySearchingValidProduct -->
+                  <span class="method-name">VerifySearchingValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchingWithInvalidProduct">
+                  </a> <!-- VerifySearchingWithInvalidProduct -->
+                  <span class="method-name">VerifySearchingWithInvalidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyWithOutProvidingProductInSearchFiled">
+                  </a> <!-- VerifyWithOutProvidingProductInSearchFiled -->
+                  <span class="method-name">VerifyWithOutProvidingProductInSearchFiled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tutorialsninja.qa.testcases.LoginFunctionalityTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorialsninja.qa.testcases.RegisterfunctionalityTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorialsninja.qa.testcases.SearchFunctionalityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield')
+data.setCell(0, 2, 'com.tutorialsninja.qa.testcases.RegisterfunctionalityTest')
+data.setCell(0, 3, 5454);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginWithInValidCreadentials')
+data.setCell(1, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(1, 3, 5425);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyRegisteringWithOnlyMandatoryFields')
+data.setCell(2, 2, 'com.tutorialsninja.qa.testcases.RegisterfunctionalityTest')
+data.setCell(2, 3, 5158);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield')
+data.setCell(3, 2, 'com.tutorialsninja.qa.testcases.RegisterfunctionalityTest')
+data.setCell(3, 3, 5082);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields')
+data.setCell(4, 2, 'com.tutorialsninja.qa.testcases.RegisterfunctionalityTest')
+data.setCell(4, 3, 5036);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLoggingWithValidEmailAndInvalidPassword')
+data.setCell(5, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(5, 3, 3372);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoggingWithInValidEmailAndValidPassword')
+data.setCell(6, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(6, 3, 3322);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyLoginWithValidCreadentials')
+data.setCell(7, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(7, 3, 2928);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifySearchingWithInvalidProduct')
+data.setCell(8, 2, 'com.tutorialsninja.qa.testcases.SearchFunctionalityTest')
+data.setCell(8, 3, 2271);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifySearchingValidProduct')
+data.setCell(9, 2, 'com.tutorialsninja.qa.testcases.SearchFunctionalityTest')
+data.setCell(9, 3, 2012);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyForgetpasswordlinkisWorking')
+data.setCell(10, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(10, 3, 1583);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyWithOutProvidingProductInSearchFiled')
+data.setCell(11, 2, 'com.tutorialsninja.qa.testcases.SearchFunctionalityTest')
+data.setCell(11, 3, 1249);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyLoggingWithoutCreadentials')
+data.setCell(12, 2, 'com.tutorialsninja.qa.testcases.LoginFunctionalityTest')
+data.setCell(12, 3, 1227);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsninja.qa.testcases.LoginFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCreadentials</span>
+                <span class="method-start">34152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">39446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCreadentials</span>
+                <span class="method-start">59150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">66017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoggingWithInValidEmailAndValidPassword</span>
+                <span class="method-start">85000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">89675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoggingWithValidEmailAndInvalidPassword</span>
+                <span class="method-start">107316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">113330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoggingWithoutCreadentials</span>
+                <span class="method-start">135304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">138597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyForgetpasswordlinkisWorking</span>
+                <span class="method-start">156624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158212 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsninja.qa.testcases.RegisterfunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisteringWithOnlyMandatoryFields</span>
+                <span class="method-start">182126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">188918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield</span>
+                <span class="method-start">209277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">216474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield</span>
+                <span class="method-start">238537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">243991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">253243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields</span>
+                <span class="method-start">285161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">290208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsninja.qa.testcases.SearchFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">293724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchingValidProduct</span>
+                <span class="method-start">318415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">320427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">321768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchingWithInvalidProduct</span>
+                <span class="method-start">354148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">356419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">364242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyWithOutProvidingProductInSearchFiled</span>
+                <span class="method-start">393895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">395145 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

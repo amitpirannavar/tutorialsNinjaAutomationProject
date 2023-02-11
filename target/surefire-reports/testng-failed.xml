@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.tutorialsninja.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.SearchFunctionalityTest">
+        <methods>
+          <include name="VerifySearchingValidProduct"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="VerifySearchingWithInvalidProduct"/>
+          <include name="VerifyWithOutProvidingProductInSearchFiled"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.SearchFunctionalityTest -->
+      <class name="com.tutorialsninja.qa.testcases.LoginFunctionalityTest">
+        <methods>
+          <include name="VerifyLoggingWithValidEmailAndInvalidPassword"/>
+          <include name="VerifyLoggingWithInValidEmailAndValidPassword"/>
+          <include name="VerifyLoginWithValidCreadentials"/>
+          <include name="openApplication"/>
+          <include name="VerifyLoggingWithoutCreadentials"/>
+          <include name="tearDown"/>
+          <include name="VerifyForgetpasswordlinkisWorking"/>
+          <include name="verifyLoginWithInValidCreadentials"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginFunctionalityTest -->
+      <class name="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest">
+        <methods>
+          <include name="VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields"/>
+          <include name="VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield"/>
+          <include name="setUp"/>
+          <include name="VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield"/>
+          <include name="tearDown"/>
+          <include name="VerifyRegisteringWithOnlyMandatoryFields"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.RegisterfunctionalityTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
