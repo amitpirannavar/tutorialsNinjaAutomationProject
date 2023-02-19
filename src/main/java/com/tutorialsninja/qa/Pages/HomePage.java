@@ -14,7 +14,7 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath = "//span[text()='My Account']")
+	@FindBy(xpath = "//a[@title = 'My Account']")
 	private WebElement AccountDropMenu;
 	
 	
