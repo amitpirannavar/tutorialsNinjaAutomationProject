@@ -1,0 +1,92 @@
+14:56:37.986 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Checked Confirm Password
+14:56:38.246 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on RadionButton
+14:56:38.511 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on Agree CheckBox
+14:56:39.879 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked On sumbit Button
+14:56:40.003 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Account Successfull Message Displayed
+14:56:41.335 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Browser got Closed
+14:56:49.748 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Browser got Launched
+14:56:50.003 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on MyAccount Option
+14:56:52.285 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on Register Option
+14:56:52.586 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered FirstName
+14:56:52.980 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered LastName
+14:56:53.656 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Email
+14:56:54.046 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Telephone Number
+14:56:54.502 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Password
+14:56:54.844 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Checked Confirm Password
+14:56:55.020 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on RadionButton
+14:56:55.320 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on Agree CheckBox
+14:56:57.743 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked On sumbit Button
+14:56:57.875 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Account Successfull Message Displayed
+14:56:59.441 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Browser got Closed
+14:57:47.679 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Browser got Launched
+14:57:47.965 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on MyAccount Option
+14:57:51.004 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on Register Option
+14:57:51.719 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered FirstName
+14:57:52.235 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered LastName
+14:57:52.884 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Email
+14:57:53.282 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Telephone Number
+14:57:53.732 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Entered Password
+14:57:54.328 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Checked Confirm Password
+14:57:54.547 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on RadionButton
+14:57:55.087 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked on Agree CheckBox
+14:58:43.437 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Clicked On sumbit Button
+14:58:43.611 [main] INFO  com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - PassWord warning Message Displayed
+14:58:45.213 [main] DEBUG com.tutorialsninja.qa.testcases.RegisterfunctionalityTest - Browser got Closed
+14:58:55.214 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+14:58:55.575 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+14:58:56.298 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+14:58:56.853 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Email Address
+14:58:57.152 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Password
+14:58:58.008 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button to submit
+14:59:09.019 [main] INFO  com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Account got Succesfully Loged In
+14:59:12.259 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+14:59:23.053 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+14:59:23.311 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+14:59:24.155 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+14:59:24.803 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Email Address
+14:59:25.203 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Password
+14:59:27.409 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button to submit
+14:59:27.517 [main] INFO  com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Warning message got Displayed
+14:59:28.590 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+14:59:39.334 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+14:59:39.571 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+14:59:40.385 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+14:59:41.101 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Email Address
+14:59:41.406 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Password
+14:59:43.000 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button to submit
+14:59:43.102 [main] INFO  com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Warning message got Displayed
+14:59:44.513 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+14:59:55.922 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+14:59:56.113 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+14:59:56.957 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+14:59:57.446 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Email Address
+14:59:57.715 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Entered Password
+14:59:58.596 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button to submit
+14:59:58.698 [main] INFO  com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Warning message got Displayed
+14:59:59.196 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+15:00:09.319 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+15:00:09.794 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+15:00:10.861 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+15:00:13.456 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button to submit
+15:00:14.594 [main] INFO  com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Warning message got Displayed
+15:00:21.040 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+15:00:39.397 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Browser got Launched
+15:00:39.638 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on MyAccount option
+15:00:40.833 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Login Button
+15:00:41.741 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Clicked on Forget Password link
+15:00:41.842 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Expected Results got Displayed
+15:00:45.289 [main] DEBUG com.tutorialsninja.qa.testcases.LoginFunctionalityTest - Driver got closed
+15:00:56.292 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got launched
+15:00:56.488 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on My Account option
+15:00:57.237 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Option
+15:00:57.710 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Email
+15:00:57.992 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Password
+15:00:59.008 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Button
+15:01:04.330 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Product
+15:01:05.387 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked On Search Button
+15:01:05.651 [main] INFO  com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Valid Product got displayed
+15:01:06.168 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got Closed
+15:01:16.614 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got launched
+15:01:16.785 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on My Account option
+15:01:17.633 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Option
+15:01:18.106 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Email

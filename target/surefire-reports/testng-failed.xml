@@ -6,33 +6,9 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.tutorialsninja.qa.testcases.SearchFunctionalityTest">
-        <methods>
-          <include name="VerifySearchingValidProduct"/>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-          <include name="VerifySearchingWithInvalidProduct"/>
-          <include name="VerifyWithOutProvidingProductInSearchFiled"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.SearchFunctionalityTest -->
-      <class name="com.tutorialsninja.qa.testcases.LoginFunctionalityTest">
-        <methods>
-          <include name="VerifyLoggingWithValidEmailAndInvalidPassword"/>
-          <include name="VerifyLoggingWithInValidEmailAndValidPassword"/>
-          <include name="VerifyLoginWithValidCreadentials"/>
-          <include name="openApplication"/>
-          <include name="VerifyLoggingWithoutCreadentials"/>
-          <include name="tearDown"/>
-          <include name="VerifyForgetpasswordlinkisWorking"/>
-          <include name="verifyLoginWithInValidCreadentials"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.LoginFunctionalityTest -->
       <class name="com.tutorialsninja.qa.testcases.RegisterfunctionalityTest">
         <methods>
-          <include name="VerifyRegisteringAccountEnteringdifferentpasswordsintoPasswordandPasswordConfirmfields"/>
-          <include name="VerifyRegisteringAccountwhenYESoptionselectedOnNewsletterfield"/>
           <include name="setUp"/>
-          <include name="VerifyRegisteringAccountwhenNOoptionselectedOnNewsletterfield"/>
           <include name="tearDown"/>
           <include name="VerifyRegisteringWithOnlyMandatoryFields"/>
         </methods>

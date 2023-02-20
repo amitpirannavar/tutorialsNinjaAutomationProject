@@ -1,0 +1,15 @@
+15:01:18.494 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Password
+15:01:24.578 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Button
+15:01:29.927 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Enetered Product
+15:01:33.092 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked On Search Button
+15:01:34.073 [main] INFO  com.tutorialsninja.qa.testcases.SearchFunctionalityTest - No Product Message got displayed
+15:01:39.829 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got Closed
+15:01:48.059 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got launched
+15:01:48.281 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on My Account option
+15:01:48.970 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Option
+15:01:49.434 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Email
+15:01:49.685 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Entered Password
+15:01:50.719 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked on Login Button
+15:01:56.666 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Clicked On Search Button
+15:01:56.795 [main] INFO  com.tutorialsninja.qa.testcases.SearchFunctionalityTest - No Product Message got displayed
+15:01:58.329 [main] DEBUG com.tutorialsninja.qa.testcases.SearchFunctionalityTest - Browser got Closed
